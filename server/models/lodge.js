@@ -1,12 +1,7 @@
 const {Schema, model} = require('mongoose');
 
 const lodgeSchema = new Schema({
-    lodgeId: {
-        type: String,
-        required: true,
-        unique: true,
-        trim: true,
-      },
+    
     title: {
         type: String,
         required: true,
@@ -29,10 +24,6 @@ const lodgeSchema = new Schema({
         type: String,
         required: true, 
         maxLength: 10
-      },
-      features: {
-        type: String, 
-        required: true
       }
 
 

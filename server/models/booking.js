@@ -3,22 +3,20 @@ const { Schema, model } = require('mongoose');
 
 const bookingSchema = new Schema (
     {
-       
-        description: {
-            type: String, 
-            maxlength: 500 
-        },
         checkIn: {
             type: Date, 
             default: Date.now,
+            required: true
         }, 
         checkOut: {
             type: Date, 
             default: Date.now,
+            required: true
         }, 
         paymentDate: {
                 type: Date, 
                 default: Date.now,
+                required: true
         },
         customer: [{
             type: Schema.Types.ObjectId,
@@ -32,10 +30,8 @@ const bookingSchema = new Schema (
             type: Boolean, 
             default: false
         },
-       
-    },
-   
-);
+
+    });
 
 const Booking = model('booking', bookingSchema);
 
