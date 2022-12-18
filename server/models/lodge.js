@@ -23,7 +23,7 @@ const lodgeSchema = new Schema({
       bed: {
         type: String,
         required: true, 
-        maxLength: 10
+        maxLength: 20
       }
 
 
