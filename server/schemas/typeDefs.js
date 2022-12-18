@@ -48,16 +48,16 @@ type Query {
     allLodges: [Lodge]!
     allBookings: [Booking]!
     allProducts: [Product]!
-    getOneCustomer: (customerId: ID): Customer!
-    getOneLodge: (lodgeId: ID): Lodge!
+    getOneCustomer(customerId: ID): Customer!
+    getOneLodge(lodgeId: ID): Lodge!
 }
-
 type Mutation {
     createLodge(title: String!, description: String!, price: Int!, guests: String!, bed: String!): Lodge
     createCustomer(firstName: String!, lastName: String!, email: String!): Customer
     createProduct(title: String!, description: String!, url: String!): Product
     createBooking(checkIn: String!, checkOut: String!, paymentDate: String!, customer: [customerBooking], lodge:[lodgePick], pet: Boolean): Booking
 }
+
 `;
 
 module.exports = typeDefs;

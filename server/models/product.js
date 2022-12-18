@@ -1,6 +1,6 @@
 const {Schema, model} = require('mongoose');
 
-const lodgeSchema = new Schema({
+const productSchema = new Schema({
     
     title: {
         type: String,
