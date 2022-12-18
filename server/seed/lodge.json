@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Stillwater-cove",
+        "description" : "Just before downtown Stillwater Minnesota, this condo has lots of dinning and entertainment options nearby. New and modern interior loft with pool access.",
+        "price": 175,
+        "guests": "1 to 5",
+        "bed": "2 queen beds"
+    },
+    {
+        "title": "Duluth-cove",
+        "description" : "Beautiful view of Lake Superior, this cottage features a hot-tub, patio and grilling on cool crisp nights in Duluth Minnesota.",
+        "price": 275,
+        "guests": "1 to 2",
+        "bed": "1 king bed"
+    },
+    {
+        "title": "Crosby-cove",
+        "description" : "Right off the shore of Big lake in one of the best Minnesota getaways you can find in North Central Minnesota. Kayak or paddleboard during the day and sit by the firepit overlooking the stars at night.",
+        "price": 200,
+        "guests": "1 to 2",
+        "bed": "1 king bed"
+    }
+]
